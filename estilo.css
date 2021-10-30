@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(218, 210, 210);
+    background: #ccc;
     margin: 0;
-    background-image: url(/imgens/Cover.jpg);
-    background-attachment: fixed ;
-    background-size: cover ;
+    background-image: url(/imgens/5026563.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .principal {
@@ -12,11 +12,13 @@ body {
     background-position: right center;
     background-size: cover;
     border-top: 1px solid transparent ;
-    
+    background-image: url(/imgens/Cover.jpg);
+    background-attachment: fixed ;
+    background-size: cover ;
 }
 
 .principal nav ul{
-    text-align: ;
+    text-align: center ;
     margin: 25px 25px 0 0;
 }
 
@@ -43,15 +45,16 @@ body {
  
 .principal-content {
         text-align: center;
-        margin-top: 150px;
-        color: rgb(18, 29, 29);
+        margin-top: 8px;
+        color: rgb(245, 245, 245);
+        
         
 }
     
 .principal-content h1 {
         text-transform: uppercase;
         font-size: 50px;
-        text-shadow: 1px 1px 3px  rgb(189, 147, 147) ;
+        text-shadow: 2px 2px 4px  rgb(3, 3, 3) ;
 }
 
 .principal-content {
@@ -72,6 +75,7 @@ body {
 main {
         width: 80%;
         margin: auto;
+       
 }
     
 .content-section {
@@ -79,28 +83,39 @@ main {
         padding: 15px;
         margin: 100px 100px;
         padding: 10px 10px;
-        
-    
+
+   
     }
-    .card {
-        border: 2px solid;
+
+
+    
+.card {
         margin-left: 20px;
-        width: 45%;
+        width: 30%;
         text-align: center;
         float: left;
-    
+        
+        
     }
     .card img {
-        height: auto; 
-        width: auto; 
-        max-width: 100px; 
-        max-height: 100px;
+        height: 100%; 
+        width: 100%; 
+       
+        
     }
+    .card p {
+        text-align: center;
+    }
+   
     .content-section {
         clear: both;
         overflow: auto;
     }
     
+    .link4 {
+        width: 20%;
+        margin-left: 40%;
+    }
     .content-section a{
         display: block;
         background: rgba(0, 0, 0, 0.2);
@@ -110,6 +125,7 @@ main {
         text-transform: uppercase;
         font-size: 10px;
         letter-spacing: 2px;
+        text-align: center;
     }
     .content-section a:hover {
         background: rgba(0, 0, 0, 0.5);
