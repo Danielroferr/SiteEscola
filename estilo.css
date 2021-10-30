@@ -16,12 +16,12 @@ body {
 }
 
 .principal nav ul{
-    text-align: right;
+    text-align: ;
     margin: 25px 25px 0 0;
 }
 
 .principal nav li {
-    display: inline-block;
+    display: inline-flex;
     list-style: none;
     border: 1px solid white;
 }
